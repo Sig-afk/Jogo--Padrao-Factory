@@ -9,5 +9,9 @@ public class Main {
         System.out.println("\n--- Iniciando Fase 2: Sertão ---");
         location = new SertaoLocation();
         location.spawnEnemyAndAttack();
+        
+        System.out.println("\n--- Iniciando Fase 3: Rio de Janeiro ---");
+        location = new RioLocation();
+        location.spawnEnemyAndAttack();
     }
 }
