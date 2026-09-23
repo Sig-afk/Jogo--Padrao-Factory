@@ -1,5 +1,8 @@
 package game;
 
+/**
+ * Simulação e cliente do jogo.
+ */
 public class Main {
 	public static void main(String[] args) {
         System.out.println("--- Iniciando Fase 1: Amazônia ---");
